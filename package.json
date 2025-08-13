@@ -9,12 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
     "@stitches/react": "^1.2.8",
     "axios": "^1.11.0",
     "keen-slider": "^6.8.6",
     "next": "15.4.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "react-toastify": "^11.0.5",
     "stripe": "^18.3.0"
   },
   "devDependencies": {
@@ -22,6 +24,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-toastify": "^4.0.2",
     "eslint": "^9",
     "eslint-config-next": "15.4.3",
     "typescript": "^5"
